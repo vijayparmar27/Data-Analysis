@@ -197,7 +197,9 @@ print(f"Total DataFrame Memory: {memory_report.sum()} bytes")
 # ----------------------------------------------------------------------
 section("2.7 Exporting DataFrames to Disk / Formats")
 
-output_dir = os.path.join(os.path.dirname(__file__), "scratch")
+# Use __file__ when executed as a script, or fallback to current directory in notebooks/REPLs:
+base_dir = os.path.dirname(__file__) if "__file__" in locals() else os.getcwd()
+output_dir = os.path.join(base_dir, "scratch")
 os.makedirs(output_dir, exist_ok=True)
 
 # 1. Export to CSV: index=False avoids writing redundant auto-increment row numbers

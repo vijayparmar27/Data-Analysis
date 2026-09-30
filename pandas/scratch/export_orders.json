@@ -1,0 +1,35 @@
+[
+  {
+    "order_id":"ORD-501",
+    "created_at":"2026-03-01",
+    "items_count":3,
+    "customer.name":"Aarav Sharma",
+    "customer.tier":"Gold",
+    "customer.city":"Mumbai",
+    "payment.method":"UPI",
+    "payment.amount":1250.0,
+    "payment.status":"success"
+  },
+  {
+    "order_id":"ORD-502",
+    "created_at":"2026-03-02",
+    "items_count":5,
+    "customer.name":"Priya Patel",
+    "customer.tier":"Silver",
+    "customer.city":"Ahmedabad",
+    "payment.method":"Credit Card",
+    "payment.amount":2800.0,
+    "payment.status":"success"
+  },
+  {
+    "order_id":"ORD-503",
+    "created_at":"2026-03-03",
+    "items_count":1,
+    "customer.name":"Rohan Mehta",
+    "customer.tier":"Gold",
+    "customer.city":"Bengaluru",
+    "payment.method":"NetBanking",
+    "payment.amount":640.0,
+    "payment.status":"failed"
+  }
+]

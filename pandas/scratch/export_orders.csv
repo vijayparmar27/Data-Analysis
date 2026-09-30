@@ -1,0 +1,4 @@
+order_id,created_at,items_count,customer.name,customer.tier,customer.city,payment.method,payment.amount,payment.status
+ORD-501,2026-03-01,3,Aarav Sharma,Gold,Mumbai,UPI,1250.0,success
+ORD-502,2026-03-02,5,Priya Patel,Silver,Ahmedabad,Credit Card,2800.0,success
+ORD-503,2026-03-03,1,Rohan Mehta,Gold,Bengaluru,NetBanking,640.0,failed
